@@ -1,10 +1,12 @@
-import chai, { expect, spy } from 'chai';
+import chai from 'chai';
 import spies from 'chai-spies';
 import { alternate } from './alternate';
 import { callExactly } from './callExactly';
 import { once } from './once';
 
 chai.use(spies);
+
+const { expect, spy } = chai;
 
 describe('once', () => {
   it('should call the function once', () => {

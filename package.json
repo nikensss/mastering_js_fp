@@ -4,7 +4,8 @@
   "description": "",
   "main": "src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "ts-mocha",
+    "test:watch": "ts-mocha --watch",
     "start": "ts-node src/index.ts"
   },
   "repository": {
@@ -19,7 +20,20 @@
   },
   "homepage": "https://github.com/nikensss/mastering_js_fp#readme",
   "devDependencies": {
+    "@types/chai": "^4.2.19",
+    "@types/chai-as-promised": "^7.1.4",
+    "@types/chai-spies": "^1.0.3",
+    "@types/mocha": "^8.2.2",
     "@types/node": "^15.12.4",
+    "@typescript-eslint/eslint-plugin": "^4.27.0",
+    "@typescript-eslint/parser": "^4.27.0",
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "chai-spies": "^1.0.0",
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "2.3.1",
+    "ts-mocha": "^8.0.0",
     "tsc": "^2.0.3",
     "typescript": "^4.3.4"
   }

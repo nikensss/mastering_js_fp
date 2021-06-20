@@ -1,0 +1,7 @@
+{
+  "diff": true,
+  "extension": ["ts"],
+  "package": "./package.json",
+  "recursive": true,
+  "spec": ["src/**/*.spec.ts"]
+}
